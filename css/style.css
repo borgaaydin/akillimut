@@ -10982,6 +10982,12 @@ footer {
 .integration_slider {
   margin: 40px 0; }
 
+.slick-next {
+  right: 0; }
+
+.slick-prev {
+  left: 0; }
+
 .footer-img {
   margin-top: 24px;
   max-height: 100px; }

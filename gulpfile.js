@@ -57,9 +57,11 @@ gulp.task('default', function () {
     return gulp.src('./sass/**/*.scss')
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(concat('style.css'))
-        .pipe(uncss({
-            html: ['index.html','pricing.html','empty.html','login.html', 'http://localhost:8888/eMutabakat']
-        }))
+        // .pipe(uncss({
+        //     html: ['index.html','pricing.html','empty.html','login.html', 'http://localhost:8888/eMutabakat'],
+        //     ignore: ["modal",
+        //         /.*noTouch.*/]
+        // }))
         .pipe(stripCssComments({preserve: false}))
         .pipe(nano())
         .pipe(gulp.dest('./public/css'));
