@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ec0e92de-35e3-48b1-a64d-7bc8d7ad2e54" name="Steaking Demo" url="http://ftp.steaking.fr">
+        <fileTransfer host="ftp.steaking.fr" port="21" username="steaking">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

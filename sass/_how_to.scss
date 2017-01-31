@@ -1,0 +1,57 @@
+// How_To_Section
+
+.how_to_container {
+  margin: 100px 0;
+}
+
+.how_to {
+  h2 {
+    color: $heading-color;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+
+    &.right {
+      float: right;
+    }
+  }
+
+  .row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #c7c7c7;
+    padding-bottom: 36px;
+
+    .col-sm-2 {
+      align-self: center;
+    }
+  }
+}
+
+.circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 36px;
+  text-align: center;
+  background: $fill-color;
+  font-weight: 600;
+  margin: 20px auto 10px;
+  float: right;
+  
+  &.left {
+    float: left;
+  }
+}
+
+.how_to_icon_1,
+.how_to_icon_2,
+.how_to_icon_3{
+  font-size: 160px;
+  color: $gradient-end;
+}

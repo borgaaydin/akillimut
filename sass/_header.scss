@@ -1,0 +1,49 @@
+// header
+
+.header_content {
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+.slogan_slider {
+  >div {
+    height: 320px;
+  }
+
+  h1 {
+    margin-top: 140px;
+  }
+  
+  .fa {
+    color: #fff;
+    font-size: 120px;
+  }
+
+  .security-icon {
+    font-size: 160px;
+    margin-top: 100px;
+  }
+}
+
+.menu_nav {
+  margin: 36px 0 10px;
+}
+
+.menu_nav_container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+
+  li {
+    display: inline;
+    margin-right: 12px;
+
+    a {
+      font-size: 15px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.81);
+
+
+    }
+  }
+}

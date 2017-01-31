@@ -1,0 +1,30 @@
+// Custom Slick Carousel
+
+.slick-next, .slick-prev {
+  height: 40px;
+  width: 40px;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-prev:before {
+  content: "\e257";
+  font-family: "Glyphicons Halflings";
+  font-size: 40px;
+}
+
+.slick-next:before {
+  content: "\e258";
+  font-family: "Glyphicons Halflings";
+  font-size: 40px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: $primary-color;
+}

@@ -1,0 +1,93 @@
+// info box
+
+.info_box_container {
+  margin: 100px 0;
+
+  .col-sm-3 {
+    padding: 0;
+  }
+}
+
+.info_box {
+  text-align: center;
+  background-color: $primary-color-dark;
+  position: relative;
+  margin: 12px;
+  cursor: pointer;
+
+  &:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  &:hover {
+    .content {
+      .info_icon {
+
+        opacity: 0;
+      }
+
+      .info_text {
+
+        opacity: 1;
+      }
+    }
+  }
+
+  h1,h2,h3,h4,h5,h6,p {
+    color: #fff;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
+  .content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    .info_icon,
+    .info_text {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .info_icon {
+      color: #fff;
+      opacity: 1;
+      transition: opacity 0.15s ease-in-out;
+    }
+
+    .info_text {
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.15s ease-in-out;
+    }
+  }
+
+  svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.info_icon_forms {
+  i {
+    font-size: 100px;
+    margin: 12% 0;
+  }
+}
+
+.info_text_forms {
+  padding: 8%;
+
+  p {
+    margin: 12% 0;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}

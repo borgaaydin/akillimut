@@ -1,0 +1,81 @@
+// Main.scss
+
+html {
+  font-family: 'Rubik', sans-serif;
+  color: $text-color;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+
+  background-color: #f2f2f2;
+
+  -webkit-font-smoothing:antialiased; /* Removes buzz during css transition ! */
+  -webkit-backface-visibility:hidden; /* Removes buzz during css transition ! */
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $text-color;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 200;
+}
+
+p, a {
+  color: $text-color;
+  font-family: 'Rubik', sans-serif;
+}
+
+header,
+footer {
+  h1,h2,h3,h4,h5,h6 { 
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+  }
+}
+
+header {
+  width: 100%;
+
+  background: $primary-color;
+  background: -moz-linear-gradient(top,  $primary-color 0%, $gradient-end 100%);
+  background: -webkit-linear-gradient(top,  $primary-color 0%,$gradient-end 100%);
+  background: linear-gradient(to bottom,  $primary-color 0%,$gradient-end 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0069ff', endColorstr='#7fb4ff',GradientType=0 );
+}
+
+.content {
+  flex: 1;
+}
+
+
+footer {
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+  z-index: 14;
+
+  background: $primary-color-dark;
+  
+  p {
+    color: #fff;
+  }
+
+  .copyright {
+    margin-top: 20px;
+  }
+}

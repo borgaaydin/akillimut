@@ -1,0 +1,47 @@
+.reach_us_container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 12;
+
+  .reach_us_button {
+    cursor: pointer;
+  }
+
+  svg {
+    display: block;
+    height: 200px;
+    width: 200px;
+
+    polygon {
+      fill: $fill-color;
+      stroke: $fill-color;
+      stroke-linecap: "round";
+    }
+  }
+
+  &:hover {
+    svg polygon {
+      fill: $fill-color-hover;
+    }
+  }
+
+  .content {
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 32px;
+    right: 10px;
+    text-align: center;
+
+    i {
+      color: #fff;
+      font-size: 32px;
+    }
+
+    h4 {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+// Works Slider
+
+.works_slider {
+  img {
+    height: 80px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $secondary-color;
+  }
+}
+
+.integration_slider {
+  img {
+    height: 50px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $secondary-color;
+  }
+}
+
+.works_slider,
+.integration_slider {
+  margin: 40px 0;
+}
+

@@ -1,0 +1,106 @@
+@media (max-width: 1200px) {
+  .info_icon_forms i {
+    font-size: 75px;
+  }
+
+  .info_box h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .info_icon_forms i {
+    font-size: 50px;
+  }
+
+  .info_box h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .menu_nav {
+    margin: 10px 0;
+  }
+
+  .menu_nav_container {
+    text-align: left;
+
+    li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  .info_box {
+    height: 240px;
+    width: 240px;
+
+    h2 {
+      font-size: 22px;
+    }
+
+    .info_icon_forms i {
+      margin: 20px 0;
+      font-size: 70px;
+    }
+
+    &:after {
+      padding-bottom: 0;
+    }
+  }
+
+  .PriceBlock {
+    width: 85%;
+  }
+
+  .BestOffer {
+    width: 100%;
+  }
+
+  .reach_us_container {
+    .content {
+      bottom: 15px;
+      right: 4px;
+
+      h4 {
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      i {
+        font-size: 20px;
+      }
+    }
+
+    svg {
+      height: 124px;
+    }
+  }
+
+  .footer-img {
+    margin-top: 44px;
+  }
+
+  .slogan_slider {
+    h1 {
+      margin-top: 70px;
+      font-size: 30px;
+    }
+
+    .security-icon {
+      font-size: 60px;
+      margin-top: 124px;
+    }
+  }
+
+  .how_to_icon_1,
+  .how_to_icon_2,
+  .how_to_icon_3 {
+    font-size: 48px;
+  }
+}
